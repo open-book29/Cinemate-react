@@ -73,16 +73,16 @@ export default function Header() {
             </div>
             <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-                <NavLink to="/" className={({isactive}) => isactive ? activeClass : inActiveClass} end>Home</NavLink>
+                <NavLink to="/" className={({isActive}) => isActive ? activeClass : inActiveClass} end>Home</NavLink>
               </li>
               <li>
-                <NavLink to="/movies/popular" className={({isactive}) => isactive ? activeClass : inActiveClass}>Popular</NavLink>
+                <NavLink to="/movies/popular" className={({isActive}) => isActive ? activeClass : inActiveClass}>Popular</NavLink>
               </li>
               <li>
-                <NavLink to="/movies/top" className={({isactive}) => isactive ? activeClass : inActiveClass}>Top Rated</NavLink>
+                <NavLink to="/movies/top" className={({isActive}) => isActive ? activeClass : inActiveClass}>Top Rated</NavLink>
               </li>
               <li>
-                <NavLink to="/movies/upcoming" className={({isactive}) => isactive ? activeClass : inActiveClass}>Upcoming</NavLink>
+                <NavLink to="/movies/upcoming" className={({isActive}) => isActive ? activeClass : inActiveClass}>Upcoming</NavLink>
               </li>
             </ul>
           </div>
